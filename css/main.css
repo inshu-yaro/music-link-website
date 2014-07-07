@@ -1,0 +1,295 @@
+
+/* BRAINIFY CSS */
+
+/*	
+	1. FULLSCREEN SLIDER
+	2. SECTION FEATURES
+	3. SECTION OVERVIEW
+	4. SECTION INFO
+	5. TESTIMONIALS
+	6. SECTION SCREENSHOTS
+	7. SECTION TEAM
+	8. CLIENTS
+	9. FOOTER
+	10. MISC
+		A. Navigation
+		B. Buttons
+		C. Form Elements
+		D. Social Buttons
+		E. Twitter
+		F. Preload
+		G. Others
+*/ 
+
+/* 1. FULLSCREEN SLIDER */
+
+
+#slides .container {
+	display:table-cell;
+	vertical-align:middle;
+	width:100%;
+}
+
+#slides h1 {
+	background: url(logo01.png);
+	font-size:7em;
+	color:#ffffff;
+}
+
+#slides .lead {
+	font-size:2em;
+	color:#ffffff;
+}
+
+#slides .sub {
+	font-size:2em;
+	color:#ffffff;
+}
+
+
+/* 2. FEATURES */
+
+#features {
+	padding-bottom:50px;
+}
+
+#features h3 {
+	margin-top:0;
+}
+
+#features i {
+	float:left;
+	padding:0 10px 50px 0;
+	color:#d5d5d5;
+}
+
+#features i:hover {
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+#features .feature {
+	float:none;
+	display:inline-table;
+}
+
+
+/* 3. OVERVIEW */
+/*
+#overview {
+	padding-bottom:0;
+}*/
+
+#overview .text {
+	margin:35px 0 0 0;
+}
+
+
+/* 4. INFO */
+
+#info {
+	padding-bottom:50px;
+}
+
+#info ul li i {
+	margin:0 10px 0 0;
+	vertical-align:middle;
+}
+
+#info  i {
+	margin:0 10px 0 0;
+	vertical-align:middle;
+}
+
+/* 7. TEAM */
+
+#team h2 {
+	margin:0 0 60px 0; 
+}
+
+#team h3 {
+	margin:15px 0 0 0; 
+}
+
+#team img {
+	float:left;
+	margin:0 20px 50px 0;
+}
+
+#team .team {
+	float:none;
+	display:inline-table;
+}
+
+
+/* 9. FOOTER */
+
+footer {
+	padding:40px 0;
+}
+
+footer a {
+	text-decoration:none;
+}
+
+footer a:hover {
+	text-decoration:none;
+}
+
+footer hr {
+	margin-top: 45px;
+	margin-bottom: 10px;
+}
+
+
+/* 10. MISC. 
+	A. NAVIGATION */
+
+.navbar {
+	-webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+}
+
+.navbar-custom {
+	font-family:Montserrat;
+	font-size:14px;
+	border-radius:0;
+	margin-bottom:0;
+	padding:50px 0;
+}
+
+.navbar-custom .navbar-nav > li > a:hover {
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.navbar-custom .navbar-toggle {
+	background:#fff;
+}
+
+.top-nav-collapse {
+	padding: 20px 0;
+}
+
+
+/* C. FORM ELEMENTS */
+
+input {
+	padding: 15px;
+	border: 1px solid #fff;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	border-radius:4px;
+	margin-right: 10px;
+	outline:none;
+}
+
+/* F. PRELOAD */
+
+.preload {
+	position:absolute;
+	width:100%;
+	height:100%;
+	z-index:9999;
+}
+
+.spinner {
+ 	margin: auto 0;
+	position: absolute;
+	top:50%;
+	left:46%;
+	z-index: 1050;	
+}
+
+.spinner > div {
+  width: 18px;
+  height: 18px;
+  border-radius: 100%;
+  display: inline-block;
+  -webkit-animation: bouncedelay 1.4s infinite ease-in-out;
+  animation: bouncedelay 1.4s infinite ease-in-out;
+  /* Prevent first frame from flickering when animation starts */
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.spinner .bounce1 {
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+
+.spinner .bounce2 {
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+}
+
+@-webkit-keyframes bouncedelay {
+  0%, 80%, 100% { -webkit-transform: scale(0.0) }
+  40% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes bouncedelay {
+  0%, 80%, 100% { 
+    transform: scale(0.0);
+    -webkit-transform: scale(0.0);
+  } 40% { 
+    transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+  }
+}
+
+
+/* G. OTHERS */
+
+.uppercase {
+	text-transform:uppercase;
+}
+
+section {
+	padding:80px 0;
+}
+
+.parallax {
+	width: 100%;
+	overflow: hidden;
+	z-index: 0;
+	height:auto;
+	min-height:300px;
+}
+
+.parallax h2 {
+	padding:25px 0;
+}
+
+.parallax i {
+	display: inline-block;
+	-webkit-transition-duration: .5s;
+	transition-duration: .5s;
+	-webkit-transition-property: -webkit-transform;
+	transition-property: transform;
+	-webkit-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	transform: translateZ(0);
+}
+
+.parallax i:hover {
+	-webkit-transform: translateY(-6px);
+	-ms-transform: translateY(-6px);
+	transform: translateY(-6px);
+	-webkit-animation-name: hover;
+	animation-name: hover;
+	-webkit-animation-duration: 1.5s;
+	animation-duration: 1.5s;
+	-webkit-animation-delay: 0.3s;
+	animation-delay: 0.3s;
+	-webkit-animation-timing-function: linear;
+	animation-timing-function: linear;
+	-webkit-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+	-webkit-animation-direction: alternate;
+	animation-direction: alternate;
+}
+

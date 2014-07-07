@@ -1,0 +1,147 @@
+/* BLUE.CSS */
+
+/* INTRO */
+
+.intro {
+    color: #ffffff;
+	background: url(../../img/bg-blue.jpg) no-repeat bottom center scroll;
+    background-color: #68bcde;
+}
+
+.brand-heading {
+	color:#ffffff;
+}
+
+.intro-text {
+	color:#68bcde;
+}
+
+/* FEATURES */
+
+#features i {
+	color:#ffffff;
+	
+}
+
+#features i:hover {
+	color:#68bcde;
+}
+
+
+/* INFO */
+
+#info ul li i {
+	color:#68bcde;
+}
+
+
+/* TEAM */
+
+#team {
+	background:#f2f2f2;
+}
+
+
+/* FOOTER */
+
+footer {
+	color:#ffffff;
+	background:#97C6C3;
+}
+
+footer a {
+	color:#ffffff;
+}
+
+footer a:hover {
+	color:#3991b5;
+}
+
+
+/*  MISC. 
+    NAVIGATION */
+
+.navbar-custom {
+	color:#ffffff;
+}
+
+.navbar-custom a {
+	color:#ffffff;
+}
+
+.navbar-custom .navbar-nav > li > a:hover {
+	color:#3991b5;
+}
+
+.navbar-custom .navbar-toggle {
+	background:#fff;
+}
+
+.navbar-custom .navbar-toggle .icon-bar {
+	background:#68bcde;
+}
+
+.top-nav-collapse {
+	background-color: rgba(151, 198, 195, 0.7);
+}
+
+
+
+/* BUTTON */
+
+.button-border-light {
+	border: 1px solid #ffffff;
+	color: #ffffff;
+}
+
+.button-border-light:hover,
+.button-border-light:active {
+	color: #68bcde;
+	background: #ffffff;
+	text-decoration:none;
+}
+
+.button-border-dark {
+	border: 1px solid #68bcde;
+	color: #68bcde;
+}
+
+.button-border-dark:hover,
+.button-border-dark:active {
+	color: #ffffff;
+	background: #68bcde;
+	text-decoration:none;
+}
+
+
+/* OTHERS */
+
+#features {
+		background:url(../../img/bg-top.jpg) 50% 0 no-repeat fixed;
+
+} 
+
+.parallax {
+	color:#ffffff;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	background-size:cover;
+}
+
+.parallax h2 {
+	color:#ffffff;
+}
+
+.hr {
+	border-top:1px solid #68bcde;
+}
+
+/* PRELOAD */
+
+.preload {
+	background:#68bcde;
+}
+
+.spinner > div {
+	background-color:#ffffff;
+}
